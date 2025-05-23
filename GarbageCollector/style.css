@@ -1,0 +1,73 @@
+@font-face {
+    font-family: pixel;
+    src: url(font/MegamaxJonathanToo-YqOq2.ttf);
+}
+body {
+    background-image: url(img/fiori.jpeg);
+    background-repeat: repeat;
+    background-size: 10%;
+    font-family: pixel;
+}
+
+#campo{
+    height: 80%;
+    width: 100%;
+}
+#casa {
+    position: fixed;
+    background-size: contain;
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    left: 38%;
+    margin-top:15%;
+}
+.albero{
+    position: fixed;
+}
+
+.pattume {
+    position: fixed;
+    width: 50px;
+    height: 70px;
+}
+#pallina{
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    width: 32px;
+    height: 32px;
+}
+
+#monete {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+
+button {
+    text-align: center;
+    font-family: pixel;
+    position: absolute;
+    border-style: dotted;
+    width: 30%;
+    margin: auto;
+    font-size: 2ch;
+    animation: animazione;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animazione {
+    0% {
+        margin-top: 0;
+    }
+    50% {
+        margin-top: 50px ;
+    }
+    100% {
+        margin-top: 0;
+    }
+}

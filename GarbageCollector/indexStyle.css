@@ -1,0 +1,36 @@
+@font-face {
+    font-family: pixel;
+    src: url(font/MegamaxJonathanToo-YqOq2.ttf);
+}
+
+body {
+    font-family: pixel;
+    text-align: center;
+}
+
+p{
+    display: block;
+}
+
+button {
+    font-family: pixel;
+    position: relative;
+    border-style: dotted;
+    width: 30%;
+    font-size: 4ch;
+    animation: animazione;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animazione {
+    0% {
+        margin-top: 0;
+    }
+    50% {
+        margin-top: 50px ;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
